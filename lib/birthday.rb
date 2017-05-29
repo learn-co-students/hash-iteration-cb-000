@@ -5,7 +5,9 @@
 # }
 
 def happy_birthday(birthday_kids)
-  # add your code snippet here!
+  for child, age in birthday_kids do
+    puts "Happy Birthday #{child}! You are now #{age} years old!"
+  end
 end
 
 
